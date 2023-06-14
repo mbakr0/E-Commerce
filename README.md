@@ -1,2 +1,5 @@
 # E-Commerce
-E-Commerce Single Page
+
+one page website with
+HTML, CSS and Javescript
+

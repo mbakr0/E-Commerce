@@ -1,0 +1,324 @@
+
+  html
+    {
+      scroll-behavior: smooth;
+    }
+
+  body
+    {
+      font-family:"Tangerine",sans-serif;
+      padding: 0;
+      margin: 0;
+      font-size: 20px;
+      text-shadow: 4px 4px 4px #aaa;
+      background-color: #ecfdff;
+      box-sizing: border-box;
+    }
+
+  #form_wrapper 
+    {
+        width: 700px;
+        height: 600px;
+        margin-left: auto;
+        background-color: transparent;
+        border-radius: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5vw;
+        padding: 5vh 15px;
+    }
+
+  #form_left 
+    {
+        margin-right: auto;  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+  #form_left img
+    {
+        width: 300px;
+        height: 300px;
+    }
+
+
+  #form_right 
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        padding: 10% 5%;
+    }
+
+  .input_container 
+    {
+        background-color: #E5E5E5;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+    }
+
+  .input_container:hover 
+    {
+        background-color: #eaeaea;
+    }
+
+  .input_container,
+  #input_submit 
+    {
+        height: 40px;
+        border-radius: 20px;
+        width: 100%;
+    }
+
+  .input_field 
+    {
+        color: #6b6b6b;
+        background-color: inherit;
+        width: 70%;
+        border: none;
+        font-weight: 10;
+        padding-left: 30px;
+    }
+
+  .input_field:hover,
+  .input_field:focus 
+    {
+        outline: none;
+    }
+
+  #input_submit 
+    {
+        background-color:  #1FCC44;
+        padding-left: 0;
+        font-weight: bold;
+        color: white;
+        text-transform: uppercase;
+    }
+
+  #input_submit:hover 
+    {
+        background-color: #40e263;
+        transition: background-color, 1s;
+        cursor: pointer;
+    }
+
+  #form_wrapper h1,
+  #form_wrapper span 
+    {
+        text-align: center;
+    }
+
+  #create_account 
+    {
+        display: block;
+        position: relative;
+        top: 30px;
+    }
+
+  a
+    {
+        text-decoration: none;
+        color:  #1FCC44;
+        font-weight: bold;
+    }
+
+
+  #form_wrapper a:hover
+    {
+      color:  #40e263;
+    }
+
+
+
+  .logo
+    {
+      font-size: 50px;
+      color:#ccc;
+
+    }
+
+  .margin-bottom
+    {
+      margin-bottom: 100px;
+    }
+
+
+
+
+  .card-title,
+  .card-text,
+  .add_cart
+    {
+      transition: .5s;
+    }
+
+  .card:hover .card-title,
+  .card:hover .card-text ,
+  .card:hover .add_cart
+    {
+      padding-left: 15px;
+      opacity: 1;
+    }
+
+  .card:hover i
+    {
+       padding-right: 15px;
+    }
+
+  i
+    {
+        line-height: 26px;
+        color: #000;
+        transition: .5s;
+    }
+
+  .card
+    {
+      transition:.7s;
+      background-color: transparent;
+      margin: 10px;
+    }
+
+  .card:hover
+    {
+      cursor: pointer;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+  .add_cart:hover
+    {
+      text-decoration: none;
+      color: #FF3368;    
+    }
+
+  .add_cart
+    {
+      color: #FF3368;
+      font-weight: 500;
+      font-size: 18px;
+      margin-top: 15px;
+      display: block;
+      opacity: 0;     
+    }
+
+  a:hover
+    {
+        text-decoration: none;
+    }
+
+
+  .card-img-top
+    {
+      height: 255px;
+    }
+
+  footer i:hover
+    {
+      color: blue;
+    }
+
+  .clear
+    {
+      clear: both;
+    }
+
+  .info
+    {
+    background-image: url("../about.jpg");  
+    }
+ 
+  .info-left
+    {
+      width: 300px;
+      float: left;    
+    }
+
+  .info-right
+    {
+      float: right;
+
+    }
+
+  #continue_reading
+    {
+    color: black;
+    }
+  #continue_reading:hover.
+    {
+    text-decoration: underline;
+    }
+
+  .top-selling-img
+  {  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width:500px;
+    margin-bottom: 50px;
+   }
+
+
+  .img1
+    {
+    background-image: url("img/1.jpg");
+    }
+
+  .img2
+    {
+    background-image: url("img/2.jpg");    
+    }
+  .img3
+    {
+    background-image: url("img/3.jpg");    
+    }
+  .img4
+    {
+    background-image: url("img/4.jpg");
+    }
+
+  .top-selling:hover .img1{
+    background-image: linear-gradient(rgba(0,0,0,.0),rgba(0,0,0,.8)) , url("img/1.jpg");
+  }
+  .top-selling:hover .img2{
+    background-image: linear-gradient(rgba(0,0,0,.0),rgba(0,0,0,.8)) , url("img/2.jpg");
+  }
+  .top-selling:hover .img3{
+    background-image: linear-gradient(rgba(0,0,0,.0),rgba(0,0,0,.8)) , url("img/3.jpg");
+  }
+  .top-selling:hover .img4{
+    background-image: linear-gradient(rgba(0,0,0,.0),rgba(0,0,0,.8)) , url("img/4.jpg");
+  }
+
+  .bottom-left
+    {
+    position: absolute;
+    opacity: 0;
+    bottom:0px;
+    left: 60px;
+    transition: .6s;
+    }
+
+  .top-selling:hover .bottom-left
+    {
+    opacity: 1;
+    bottom:70px;
+    left: 60px;
+    }
+
+
+
+    @media screen and (max-width:768px) {
+
+        #form_wrapper {
+            grid-template-columns: 1fr;
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 90%;
+        }
+        #form_left, #img {
+            display: none;
+        }
+    }
